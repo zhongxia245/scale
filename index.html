@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Document</title>
+  <style>
+  .primary img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .primary img:lash-child {}
+  </style>
+  <link rel="stylesheet" href="scale.css">
+  <script src="scale.js"></script>
+</head>
+
+<body>
+  <div class="primary">
+    <img src="img/1000*1500.jpg" alt="">
+    <img src="img/1000*2000.jpg" alt="">
+    <img src="img/1920*800.jpg" alt="">
+    <img src="img/1920*1200.jpg" alt="">
+  </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    ImagesZoom.init({
+      "elem": ".primary"
+    });
+  }, false);
+  </script>
+</body>
+
+</html>
