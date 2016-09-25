@@ -4,3 +4,5 @@
 移动端看效果
 [在线DEMO](http://zhongxia.win/demo/scale/)
 http://zhongxia.win/demo/scale/
+
+![](http://ww1.sinaimg.cn/large/65e4f1e6gw1f85lznajp4j20c80cat9d.jpg)
